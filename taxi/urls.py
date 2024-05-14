@@ -19,6 +19,7 @@ from .views import (
     assign_user_to_car,
 )
 
+
 urlpatterns = [
     path("", index, name="index"),
     path(
